@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+        body {
+            font-family: "Lora", serif;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 400;
+            line-height: 1.58;
+            letter-spacing: -.003em;
+            font-size: 20px;
+            padding: 70px;
+        }
+        h1 {
+          font-family: "Lora", serif;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 38px;
+          line-height: 1.15;
+          letter-spacing: -.02em;
+          color: rgba(0, 0, 0, 0.8);
+          -webkit-font-smoothing: antialiased;
+        }
+        h5 {
+          font-family: "Lora", serif;
+          font-weight: 300;
+          font-style: normal;
+          font-size: 38px;
+          line-height: 1.15;
+          letter-spacing: -.02em;
+          color: rgba(0, 0, 0, 0.8);
+          -webkit-font-smoothing: antialiased;
+        }
+        p {
+          font-family: "Lora", serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 25px;
+          line-height: 1.15;
+          letter-spacing: -.02em;
+          color: rgba(0, 0, 0, 0.8);
+          -webkit-font-smoothing: antialiased;
+        }
+      </style>
+    <script src="https://kit.fontawesome.com/a0fd3005f4.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="col container text-center">
+
+    <header class="col container text-center">
+        <h1> HUERTA CAFÉ </h1>
+        
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page"> inicio </a>
+              <a href="#nosotros" class="nav-link"> nosotros </a>
+              <a href="#productos" class="nav-link"> productos</a>
+              <a href="#contactanos" class="nav-link"> contactanos </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div id="contenedor" class="row container text-center">
+       <img id="img_one" class="col imagnHeader" src="imagenes/b0663cb4d8fb28ff0f307e86a04e6dfa.jpg" alt="img"> 
+        
+    </div>
+
+    <div class="row botonera_visual">
+        
+        <div class="col tarjeta"> 
+            
+            <a href="#café">
+                <img src="imagenes/1d62bd281e4347d8df87b5a4a020188b.jpg" class="imgLink figure-img img-fluid rounded-circle" alt="">
+            </a>
+            <p> café </p>
+
+        </div>
+        <div class="col tarjeta"> 
+            <a href="#carta"> 
+                <img src="imagenes/f76d1bdb1d90f3d106ff0969b25a43d5.jpg" class="imgLink figure-img img-fluid rounded-circle" alt="">
+            </a>
+            <p> carta </p>
+        </div>
+        <div class="col tarjeta"> 
+            <a href="#sucursal">
+                <img src="imagenes/615b8cce2a45858423b41184c3b0e2b7.jpg" class="imgLink figure-img img-fluid rounded-circle" alt="">
+            </a>
+            <p> sucursales </p>
+        </div>
+
+        
+    </div>
+    <a name="nosotros" id="nosotros"></a> 
+        <article class="container-fluid">
+            <div class="cajaDialogo">
+                <h3> quienes somos </h3>
+            </div>
+            <div class="containerMain">
+                <div class="tarjetasMain">
+                    <div id="primerCirculo" class="row circulo3 rounded-circle">
+                        <img src="imagenes/6560ec6960a9fa621cef259bacef93af.jpg" alt=""
+                        class="imgCirculo rounded-circle">
+                    </div>
+                    <h6>Maria, fundadora de Huerta Café</h6>
+                </div>
+                <div class="">
+                    <p id="primerTexto" class="pMain">En el corazón de Buenos Aires, dos hermanas visionarias unieron sus fuerzas para dar vida a un rincón especial: un santuario gastronómico vegano que va más allá de lo ordinario. Fundada con amor y compromiso en 2015, Huerta Café es el reflejo de nuestra pasión compartida por la comida deliciosa, sostenible y respetuosa con los animales.
+                </div>
+                <div class="">
+                    <p class="pMain">Desde temprana edad, Marta y Maria compartieron no solo lazos de sangre, sino también una afinidad especial por la alimentación consciente y respetuosa con el planeta. Su historia en la creación de Huerta Café comenzó con la inspiración de su propio viaje hacia un estilo de vida basado en plantas, donde descubrieron que la cocina vegana no solo era una elección, sino una pasión compartida.</p>
+                </div>
+                <div class="tarjetasMain">
+                    <div id="segundoCirculo" class="row circulo3 rounded-circle">
+                        <img src="imagenes/a09559731280e8763bbf6b881c79635f.jpg" alt=""
+                        class="imgCirculo rounded-circle">
+                    </div>
+                    <h6>Marta, co-fundadora de Huerta Café</h6>
+                </div>
+                <div class="tarjetasMain">
+                    <div id="circulo_mas" class="row circulo3 rounded-circle">
+                        <img src="imagenes/dbd3fd649782e535177158cee7e1d39c.jpg" alt=""
+                        class="imgCirculo rounded-circle mx-auto d-block">
+                    </div>
+                </div>
+                <div class="">
+                    <p class="pMain">En Huerta Café, Maria y Marta han creado un santuario gastronómico donde los valores familiares y la pasión culinaria se entrelazan. Cada taza de café y cada plato reflejan la dedicación fraternal a proporcionar una experiencia vegana excepcional.</p>
+                </div>
+                <div class="">
+                    <p class="pMain">Te invitamos a compartir este viaje culinario con Huerta Café, donde cada plato cuenta la historia de dos hermanas que convirtieron su amor por la cocina vegana en una realidad deliciosa. ¡Bienvenidos a nuestra mesa, donde la comida es el lazo que fortalece nuestra fraternidad! </p>
+                </div>
+                <div class="tarjetasMain">
+                    <div id="circuloUltimo" class="row circulo3 rounded-circle">
+                        <img src="imagenes/3e3c807a04ea8b253b39a9a234bab9a0.jpg" alt="" class="imgCirculo rounded-circle mx-auto d-block">
+                    </div>
+                
+            </div>
+        </article>
+
+        <a name="contactanos" id="contactanos"></a> 
+        <div class="containerItems"> 
+            <a class="tarjeta" href=""> 
+                <div class="circulo2 rounded-circle">
+                    <i style="font-size: 4em;" class="bi bi-envelope-heart"></i>
+                </div>
+                <p>contactanos</p>
+            </a>
+            <div > 
+                <a class="tarjeta" href=""> 
+                    <div id="circulo_next" class="circulo_next rounded-circle">
+                        <i style="font-size: 4em;" class="bi bi-cup-hot"></i>
+                    </div>
+                    <p>reservas</p>
+                </a>
+            </div>
+            <div class="tarjeta"> 
+                <a class="tarjeta" href=""> 
+                    <div id="circulo_next2" class="circulo_next2 rounded-circle">
+                        <i style="font-size: 4em;" class="bi bi-cart-plus-fill "></i>
+                    </div>
+                    <p> mayoristas </p>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+    <a name="productos" id="productos"></a> 
+
+    <div class="prod">
+        <div class="cajaDialogo">
+            <h3> sobre nuestros productos </h3>
+        </div>
+        
+        <div class="cajaAlergenos row container text-center">
+            
+            <div class="col tarjetaIcono">
+                <p> sin lactosa</p>
+                <div class="row circulo rounded-circle">
+                    <img class="icono" width="90" height="90" src="https://img.icons8.com/ios-glyphs/90/no-milk.png" alt="no-milk"/>
+                </div>
+            </div>
+    
+            <div class="col tarjetaIcono" >
+                <p> sin gluten</p>
+                <div class="row circulo rounded-circle">
+                    <img  class="icono"  width="90" height="90" src="https://img.icons8.com/ios-glyphs/90/no-gluten.png" alt="no-gluten"/>
+                </div>
+                
+            </div>
+    
+            <div class="col tarjetaIcono">
+                <p> cruelty free </p>
+                <div class="row circulo rounded-circle">
+                    <img class="icono" width="90" height="90" src="https://img.icons8.com/ios-glyphs/90/vegan-symbol.png" alt="vegan-symbol"/>
+                </div>
+                
+            </div>
+        </div>
+        <div class="contenedoresPRD">  
+            <div id="plus">
+                <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/3e69cdaee3f273fe0caa36b7a5fe54d3.jpg" alt="">
+            </div>
+            <p class=""> Desde el primer día, nos propusimos crear un espacio acogedor donde cada bocado cuenta una historia de sabor y conciencia. Cada plato que servimos en Huerta Café es una obra maestra, cuidadosamente elaborada con ingredientes frescos y de origen vegetal. Nos enorgullece ofrecer una carta que celebra la diversidad de sabores y colores que la naturaleza nos brinda
+                
+            </p>
+            <p class="">Cada plato en Huerta Café cuenta la historia de su valentía y determinación, invitando a todos a disfrutar de un festín que no solo nutre el cuerpo, sino también el espíritu. Su historia es una celebración de la resiliencia y la alegría que se encuentra en cada bocado de comida vegana en su cafetería. ¡Bienvenidos a un lugar donde la compasión y el sabor se encuentran en cada rincón!</p>
+            <div id="imgprd" class="circulo4">
+                <img  class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/958d73a586d2992eb04a6746b55a6cd8.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="cajaDialogo">
+            <h3> conocé nuestras variedades </h3>
+        </div>
+
+    <a name="carta" id="carta"></a> 
+
+        <div class="productos">
+
+                <div class="col tarjeta">
+                    <div class="circulo4">
+                        <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/1a8e6ccdc9de7c3e937e949f004d757c.jpg" alt="">
+                    </div>
+                    <h5> brunch </h5>
+
+                </div>
+
+                <div class="col tarjeta">
+                    <div class="circulo4">
+                        <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/125970626327050440d0d3288319033d.jpg" alt="">
+                    </div>
+                    <h5> salad-mix </h5>
+                    
+                </div>
+
+                <div class="col tarjeta">
+                    <div class="circulo4">
+                        <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/4ac14367afd1aa65cdf96d42972d3a60.jpg" alt="">
+                    </div>
+                    <h5> waffles </h5>
+                </div>
+                <div class="col tarjeta">
+                    <div class="circulo4">
+                        <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/d1f0aab40b80aceb3f6bde98238cba89.jpg" alt="">
+                    </div>
+                    <h5> mini cakes </h5>
+
+                </div>
+
+                <div class="col tarjeta">
+                    <div class="circulo4">
+                        <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/d16f303b17717e3e01108c8e419eb787.jpg" alt="">
+                    </div>
+                    <h5> crossaints </h5>
+                    
+                </div>
+
+                <div class="col tarjeta border">
+                    <div class="circulo4">
+                        <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/ec1a2055d1bf1f1acd1acf7fb573eed3.jpg" alt="">
+                    </div>
+                    <h5> cakes </h5>
+                </div>
+
+    </div>
+
+    <a name="café" id="café"></a> 
+
+    <div class="cajaDialogo">
+        <h3> nuestro café </h3>
+    </div>
+
+    <div class="contenedoresCC">
+        <div class="circulo4">
+            <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/7407501aab8f19e37c6cce24b6cf31ba.jpg" alt="">
+        </div>
+        <p class="">
+            En nuestra cafetería, el café vegano se convierte en una experiencia sublime. Nuestro café, cuidadosamente seleccionado y elaborado con leches vegetales de alta calidad, te transportará a un viaje sensorial único. Cada taza es una invitación a explorar la armonía entre el café y la bondad de la tierra.
+        </p>
+        <p class="">En Huerta Café, cada taza de café es una obra maestra cuidadosamente elaborada. Desde granos de café seleccionados con esmero hasta la elección de leches vegetales de alta calidad, cada detalle se enfoca en ofrecer una experiencia de café que sea ética y deliciosa. El menú no solo celebra la versatilidad del café, sino que también demuestra que es posible disfrutar de esta bebida con consciencia y respeto por los animales y el medio ambiente.</p>
+        <div id="plus">
+            <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/granos-de-cafe-delirante-scaled.jpg" alt="">
+        </div>
+    
+    </div>
+
+
+
+    <a name="sucursal" id="sucursal"></a> 
+    <div class="cajaDialogo">
+        <h3> nuestras sucursales </h3>
+    </div>
+    <div class="row contenedoresSCR">
+
+        <div class="col tarjeta">
+            <div class="circulo5">
+                <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/05c4d47b1aa771a70289f9be34d11c78.jpg" alt="">
+                
+            </div>
+            
+            <div class="">
+                <h5> Cañitas </h5>
+                <p> Las Plumitas 2816</p>
+                <p> 11123456789</p>
+                <div class="caja">
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                    </a>
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-envelope-heart"></i>
+                        </div>
+                    </a>
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                    </a>
+                </div>    
+            </div>
+
+        </div>
+
+        <div class="col tarjeta">
+            <div class="circulo5">
+                <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/8902a6fca80497d2aed5a6e09e219ca1.jpg" alt="">
+                
+            </div>
+            
+            <div class="">
+                <h5> Belgrano </h5>
+                <p> Golondrinas 346</p>
+                <p> 110987654321</p>
+                <div class="caja">
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                    </a>
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-envelope-heart"></i>
+                        </div>
+                    </a>
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                    </a>
+                </div>    
+            </div>
+
+        </div>
+
+        <div class="col tarjeta">
+            <div class="circulo5">
+                <img class="imgCirculo rounded-circle mx-auto d-block" src="imagenes/d7d04246d97a0dc3e4eb11212c88524b.jpg" alt="">
+                
+            </div>
+            
+            <div class="">
+                <h5> Palermo </h5>
+                <p> Margaritas 4556</p>
+                <p> 11234516789 </p>
+                <div class="caja">
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                    </a>
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-envelope-heart"></i>
+                        </div>
+                    </a>
+                    <a class="miniIcons" href=""> 
+                        <div class="circulito rounded-circle">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                    </a>
+                </div>     
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="row"> 
+        <div class="col">
+            <h6>HUERTA CAFÉ</h6>
+            <h6>espacio de café y algo más</h6> 
+
+        </div>
+        <div class="col">
+            <h6>
+                <a href="">
+                    huertacafe@hotmail.com
+                </a>
+            </h6>
+            <h6>
+                <a href="">
+                    1122552044
+                </a>
+            </h6>
+            <h6>
+                <a href="">
+                    Margaritas 4556
+                </a>
+            </h6>  
+
+        </div>
+        <div class="col cajaFooter">
+            <div class="caja">
+                <a class="miniIcons" href=""> 
+                    <div class="circulito rounded-circle">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                </a>
+                <a class="miniIcons" href=""> 
+                    <div class="circulito rounded-circle">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                </a>
+                <a class="miniIcons" href=""> 
+                    <div class="circulito rounded-circle">
+                        <i class="bi bi-facebook"></i>
+                    </div>
+                </a>
+            </div>    
+
+        </div> 
+            
+    </footer>
+
+    
+  </body>
+</html>

@@ -1,0 +1,541 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    margin-bottom: 10%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+}
+
+
+h5{
+    margin-top:30px
+}
+
+h6{
+    font-size: x-large;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+body{
+    display: grid;
+    background-color: rgb(237,231,223);
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    
+}
+
+nav{
+    width: 100%;
+}
+
+#contenedor{
+    padding: 10px;
+    background: rgb(255,254,254);
+    background: radial-gradient(circle, rgba(255,254,254,0.3519782913165266) 0%, rgba(255,254,254,1) 100%);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.imagnHeader{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: 600px 400px;
+    column-gap: 50px;
+    justify-content: center;
+
+}
+
+.botonera_visual{
+    background: rgb(255,254,254);
+    background: radial-gradient(circle, rgba(255,254,254,0.3519782913165266) 0%, rgba(255,254,254,1) 100%);
+    width: 100%;
+}
+
+
+.imgLink{
+    height: 300px;
+    object-fit: contain;
+}
+
+article{
+    width: fit-content;
+}
+
+.containerItems{
+    width: 100%;
+    margin-bottom: 10%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.cajaDialogo{
+    width: 100%;
+    padding: 10px;
+    background: rgb(255,254,254);
+    background: radial-gradient(circle, rgba(255,254,254,0.3519782913165266) 0%, rgba(255,254,254,1) 100%);
+}
+
+.tarjetaV{
+    height: fit-content;
+}
+
+.imgLinkRow{
+    height: 200px;
+    object-fit: contain;
+}
+
+
+.cajaAlergenos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    background-color: rgb(242,215,179);
+    column-gap: 10px;
+}
+
+.tarjetaIcono{
+    margin-bottom: 20%;
+    display: grid;
+    background-color: rgb(242,215,179);
+    height: fit-content;
+    justify-items: center;
+}
+
+
+.circulo{
+    height: 110px;
+    width: 110px;
+    border: 5px solid black;
+}
+
+.icono{
+    object-fit: contain;
+    position: relative;
+    top: 5%
+}
+
+
+.circulo3{
+    width: 280px;
+    height: 260px;
+    position: relative;
+    display: inline-block;
+}
+
+.containerMain{
+    margin-bottom: 10%;
+    width: 100%;
+    background: rgb(245,173,173);
+    background: linear-gradient(0deg, rgba(237,231,223,1) 0%, rgb(245,173,173)100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.pMain{
+    font-size: xx-large;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+
+}
+
+.tarjetasMain{
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+}
+
+#primerTexto{
+    margin-top: 20%;
+}
+
+#primerCirculo{
+    width: 330px;
+    height: 310px;
+    margin-top: 40%;
+    margin-left: 10%;
+    position: relative;
+    display: inline-block;
+}
+
+#segundoCirculo{
+    width: 330px;
+    height: 310px;
+    margin-top: 30%;
+    margin-left: 10%;
+    position: relative;
+    display: inline-block;
+}
+
+#circulo_mas{
+    width: 430px;
+    height: 410px;
+    position: relative;
+    display: inline-block;
+}
+
+#circuloUltimo{
+    margin-top: 30%;
+    width: 330px;
+    height: 310px;
+    position: relative;
+    display: inline-block;
+}
+
+.imgCirculo{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.tarjeta{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+}
+
+.circulo2{
+    width: 160px;
+    height: 160px;
+    background: rgb(183,205,186,1);
+    position: relative;
+    display: inline-block;
+}
+
+
+.circulo_next{
+    width: 160px;
+    height: 160px;
+    background: ghostwhite;
+    position: relative;
+    display: inline-block;
+}
+
+.circulo_next2{
+    width: 160px;
+    height: 160px;
+    background: rgb(184,220,228);
+    position: relative;
+    display: inline-block;
+}
+
+i{
+    position: relative;
+    top: 10%;
+}
+
+.contenedoresPRD{
+    margin-bottom: 10%;
+    width: 100%;
+    display: grid;
+    background: rgb(237,231,223);
+    background: linear-gradient(0deg, rgba(237,231,223,1) 0%, rgb(242,215,179) 100%);
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    position: relative;
+    justify-items: center;
+}
+
+
+.contenedoresCC{
+    margin-bottom: 10%;
+    width: 100%;
+    display: grid;
+    background: rgb(130,39,28);
+    background: linear-gradient(0deg, rgba(237,231,223,1) 0%, rgb(130,39,28) 100%);
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    position: relative;
+    justify-items: center;
+}
+
+.contenedoresSCR{
+    margin-bottom: 15%;
+    width: 100%;
+    background: rgb(134,179,94);
+    background: linear-gradient(0deg, rgba(237,231,223,1) 0%, rgb(134,179,94) 100%);
+    }
+
+.circulo5{
+    width: 200px;
+    height: 200px;
+}
+ 
+.circulo4{
+    margin-top: 120px;
+    width: 300px;
+    height: 300px;
+}
+#plus{
+    width: 450px;
+    height: 450px;
+}
+
+.caja{
+    display: grid;
+    row-gap: 5px;
+}
+
+.miniIcons{
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+}
+
+.circulito{
+    width: 50px;
+    height: 50px;
+    background: rgb(183,205,186,1);
+    position: relative;
+    display: inline-block;
+}
+
+.productos{
+    width: 100%;
+    display: grid;
+    background-color: rgb(237,231,223);
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+
+#imgprd{
+    height: 400px;
+    width:400px;
+    position: relative;
+    top: -5%;
+    right: 10%;
+}
+
+.prod{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+footer{
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    background-color: rgb(144,126,104);
+    position: relative;
+}
+
+.cajaFooter{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media(max-width:800px){
+    body{
+        align-items: center;
+    }
+
+    nav{
+        position: relative;
+        width: fit-content;
+    }
+
+    #contenedor{
+        width: 100%;
+    }
+
+    .botonera_visual{
+        display: grid;
+
+    }
+    
+    .containerMain{
+        width: 100%;
+        position: relative;
+    
+    }
+    
+    .containerItems{
+        width: min-content;
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .cajaAlergenos{
+        width: 700px;
+    }
+
+    .contenedoresPRD{
+        width: 700px;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        justify-items: center;
+    }
+
+    #imgprd{
+        height: 400px;
+        width:400px;
+        position: relative;
+        top: 0%;
+        right: 0%;
+    }
+
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        row-gap: 10px;
+        column-gap: 10px;
+        
+    }
+
+    .contenedoresCC{
+        width: 700px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+        position: relative;
+        justify-items: center;
+    }
+
+    .contenedoresSCR{
+        display: grid;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media(max-width:400px){
+    body{
+        width: min-content;
+        align-items: center;
+    }
+
+    nav{
+        position: relative;
+        width: min-content;
+    }
+
+    #contenedor{
+        width: max-content;
+    }
+
+    .botonera_visual{
+        display: grid;
+
+    }
+    
+    .containerMain{
+        width: min-content;
+        position: relative;
+        left: 12%;
+    }
+    
+
+    .containerItems{
+        width: 100%;
+        margin-bottom: 10%;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+    }
+
+    .cajaAlergenos{
+        width: 300px;
+    }
+
+    .contenedoresPRD{
+        width:min-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        justify-items: center;
+    }
+
+    #imgprd{
+        height: 300px;
+        width:300px;
+        position: relative;
+        top: 0%;
+        right: 0%;
+    }
+    #plus{
+        width: 300px;
+        height: 300px;
+    }
+
+    .productos{
+        width:min-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        justify-items: center;
+        
+    }
+
+    .contenedoresCC{
+        width:min-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        justify-items: center;
+    }
+
+    .contenedoresSCR{
+        width:min-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        justify-items: center;
+    }
+
+    .cajaDialogo{
+        width: 300px;
+    }
+
+}
